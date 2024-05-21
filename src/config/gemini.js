@@ -1,5 +1,6 @@
 // node --version # Should be >= 18
 // npm install @google/generative-ai
+
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
 
 const MODEL_NAME = "gemini-1.0-pro";
